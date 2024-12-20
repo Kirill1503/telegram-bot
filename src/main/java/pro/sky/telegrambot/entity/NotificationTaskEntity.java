@@ -7,7 +7,6 @@ import java.util.Objects;
 @Entity
 @Table(name = "notification_task")
 public class NotificationTaskEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

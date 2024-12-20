@@ -9,7 +9,6 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 @Component
 public class NotificationBot extends TelegramLongPollingBot {
-
     private final String botUsername;
     private final String botToken;
 
